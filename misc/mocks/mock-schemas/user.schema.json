@@ -1,0 +1,19 @@
+{
+  "title": "User",
+  "description": "A user",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a account",
+      "type": "integer"
+    },
+    "account_name": {
+      "description": "Name of the account",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}

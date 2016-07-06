@@ -1,0 +1,17 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ */
+'use strict'
+
+const ASchema = require('./aschema')
+const create = require('./create')
+
+let lib = create.bind(lib)
+
+Object.assign(lib, ASchema, {
+  create,
+  ASchema
+})
+
+module.exports = lib
