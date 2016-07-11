@@ -1,6 +1,6 @@
 {
   "name": "aschema",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "JSON schema validator",
   "main": "lib",
   "browser": "sims/browser",

@@ -117,4 +117,6 @@ ASchema.prototype = {
   }
 };
 
+Object.assign(ASchema, { tv4: tv4 });
+
 module.exports = ASchema;
