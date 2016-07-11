@@ -37,6 +37,15 @@ describe('aschema', function () {
       })
       assert.ok(error)
     }
+
+    {
+      assert.throws(() => {
+        productSchema.validateToThrow({
+          id: '1234',
+          name: { foo: 'bar' }
+        })
+      })
+    }
   }))
 })
 

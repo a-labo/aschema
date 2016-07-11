@@ -28,8 +28,9 @@ ASchema.prototype = {
    * @returns {object|null} - Null if success.
    */
 
-  validate: function validate(values, options) {
-    options = options || {};
+  validate: function validate(values) {
+    var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+
     var s = this;
 
     var _tv4$validateResult = tv4.validateResult(values, s);
@@ -59,6 +60,18 @@ ASchema.prototype = {
         schema: s.toJSON()
       }
     };
+  },
+
+  /**
+   * Throw an error if validate failed
+   * @throws Error
+   */
+  validateToThrow: function validateToThrow() {
+    var s = this;
+    var error = s.validate.apply(s, arguments);
+    if (error) {
+      throw error;
+    }
   },
 
   /**
