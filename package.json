@@ -1,6 +1,6 @@
 {
   "name": "aschema",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "JSON schema validator",
   "main": "lib",
   "browser": "sims/browser",
@@ -8,7 +8,7 @@
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js && ./ci/browser.js"
   },
-  "repository": "okunishinishi/node-aschema",
+  "repository": "a-labo/aschema",
   "keywords": [
     "JSON Schema",
     "validator"
@@ -20,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okunishinishi/node-aschema/issues"
+    "url": "https://github.com/a-labo/aschema/issues"
   },
-  "homepage": "https://github.com/okunishinishi/node-aschema#readme",
+  "homepage": "https://github.com/a-labo/aschema#readme",
   "dependencies": {
     "co": "^4.6.0",
     "iftype": "^2.0.4",
