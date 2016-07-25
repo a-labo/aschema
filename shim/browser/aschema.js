@@ -27,7 +27,6 @@ ASchema.prototype = {
    * @param {object} [options] - Optional settings.
    * @returns {object|null} - Null if success.
    */
-
   validate: function validate(values) {
     var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
 
@@ -120,3 +119,4 @@ ASchema.prototype = {
 Object.assign(ASchema, { tv4: tv4 });
 
 module.exports = ASchema;
+//# sourceMappingURL=data:application/json;base64,bnVsbA==

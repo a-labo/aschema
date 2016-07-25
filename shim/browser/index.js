@@ -15,3 +15,4 @@ Object.assign(lib, ASchema, {
 });
 
 module.exports = lib;
+//# sourceMappingURL=data:application/json;base64,bnVsbA==
