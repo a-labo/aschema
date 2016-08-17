@@ -37,7 +37,6 @@ describe('aschema', function () {
       })
       assert.ok(error)
     }
-
     {
       assert.throws(() => {
         productSchema.validateToThrow({

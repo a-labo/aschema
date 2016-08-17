@@ -1,6 +1,6 @@
 {
   "name": "aschema",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "JSON schema validator",
   "main": "lib",
   "browser": "shim/browser",
@@ -30,16 +30,16 @@
     "uuid": "^2.0.2"
   },
   "devDependencies": {
-    "ababel": "^1.0.25",
-    "ababel-es2015": "^1.0.5",
-    "amocha": "^1.0.11",
+    "ababel": "^1.1.2",
+    "ababel-es2015": "^1.0.6",
+    "amocha": "^1.0.14",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
-    "coz": "^6.0.16",
+    "coz": "^6.0.17",
     "injectmock": "^2.0.0",
     "tv4": "^1.2.7"
   },
