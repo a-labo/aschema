@@ -36,6 +36,7 @@ describe('aschema', function () {
         name: { foo: 'bar' }
       })
       assert.ok(error)
+      assert.ok(error instanceof Error)
     }
     {
       assert.throws(() => {

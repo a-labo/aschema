@@ -1,6 +1,6 @@
 {
   "name": "aschema",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "description": "JSON schema validator",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/a-labo/aschema#readme",
   "dependencies": {
-    "co": "^4.6.0",
     "iftype": "^3.0.0",
     "tv4": "^1.2.7",
     "uuid": "^2.0.2"
@@ -35,13 +34,13 @@
     "amocha": "^1.0.14",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
+    "co": "^4.6.0",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.17",
-    "injectmock": "^2.0.0",
-    "tv4": "^1.2.7"
+    "injectmock": "^2.0.0"
   },
   "engines": {
     "node": ">=6",
