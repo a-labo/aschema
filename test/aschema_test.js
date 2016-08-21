@@ -24,6 +24,10 @@ describe('aschema', function () {
       require('../misc/mocks/mock-schemas/product')
     )
     {
+      let json = productSchema.toJSON()
+      assert.equal(json.title, 'Product')
+    }
+    {
       let error = productSchema.validate({
         id: 1234,
         name: 'hoge'
