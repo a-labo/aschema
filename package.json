@@ -1,12 +1,12 @@
 {
   "name": "aschema",
-  "version": "2.0.5",
+  "version": "3.0.1",
   "description": "JSON schema validator",
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "prepare": "./ci/build.js && ./ci/shim.js"
   },
   "repository": "a-labo/aschema",
   "keywords": [
@@ -24,26 +24,25 @@
   },
   "homepage": "https://github.com/a-labo/aschema#readme",
   "dependencies": {
-    "iftype": "^3.0.0",
+    "iftype": "^4.0.2",
     "tv4": "^1.2.7",
-    "uuid": "^2.0.2"
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "ababel": "^1.1.2",
-    "ababel-es2015": "^1.0.6",
-    "amocha": "^1.0.14",
-    "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.4",
-    "co": "^4.6.0",
+    "ababel": "^5.0.10",
+    "amocha": "^5.0.1",
+    "ape-formatting": "^2.0.1",
+    "ape-releasing": "^5.0.6",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
-    "ape-tmpl": "^5.0.15",
-    "ape-updating": "^4.0.5",
-    "coz": "^6.0.17",
+    "ape-tmpl": "^6.0.13",
+    "ape-updating": "^5.0.3",
+    "co": "^4.6.0",
+    "coz": "^7.0.14",
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
